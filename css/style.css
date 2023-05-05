@@ -1,71 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    color: #3a5170;
-    font-weight: 700;
-} 
-
-h2{
+h1 {
     font-family: 'Montserrat', sans-serif;
     color: #3a5170;
     font-weight: 700;
 }
 
-h3{
+h2 {
     font-family: 'Montserrat', sans-serif;
     color: #3a5170;
     font-weight: 700;
 }
 
-h4{
+h3 {
     font-family: 'Montserrat', sans-serif;
     color: #3a5170;
-}   
+    font-weight: 700;
+}
 
-h5{
+h4 {
     font-family: 'Montserrat', sans-serif;
     color: #3a5170;
 }
 
-h6{
+h5 {
+    color: #3a5170;
+}
+
+h6 {
     font-family: 'Montserrat', sans-serif;
     color: #3a5170;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     color: #7dadf0;
     font-weight: bolder;
 }
 
-.h1-gral{
+.h1-gral {
     text-align: center;
     margin: 15px;
 }
 
-.nav-item :hover{
+.nav-item :hover {
     color: #7dadf0 !important;
 }
 
-.card{
+.card {
     display: flex;
     align-items: center;
 }
 
 
-.row{
+.row {
     justify-content: center;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,83 +73,97 @@ p{
     justify-content: center;
 }
 
-.categoria{
+.categoria {
     margin: 2px;
     width: 500px;
 }
 
-.hero-container{
+.hero-container {
     display: flex;
     justify-content: center;
 }
 
-#cards{
-    margin:  15px;
-}
-/* ------------------------SOBRE NOSOTROS----------------------------- */
-.sn-tittle{
-    text-align: center;
-    padding: 15px;
+#cards {
+    margin: 15px;
 }
 
-.quienes-somos-container{
+/* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
     display: flex;
     background-color: whitesmoke;
     margin: 20px;
 }
 
-.quienes-somos{
+.quienes-somos {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     padding: 20px;
-    
+
 }
 
-.mision-vision{
+.mision-vision {
     margin: 20px;
     background-color: whitesmoke;
     display: flex;
     justify-content: space-evenly;
 }
- 
-.mision{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px;
-}
-.vision{
+
+.mision {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 50px;
 }
 
-.ubi-locales{
+.vision {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
 
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
 }
 
 /* --------------SERVICIOS---------------------- */
 
-.servicios-1{
+.hero-servicios {
+    min-width: 90vw;
+
+}
+
+.hero-servicios img {
+    width: 90%;
+}
+
+.servicios-1 {
     display: flex;
     padding: 20px;
     flex-direction: row;
 }
 
-.arreglos-florales{
+.arreglos-florales {
     padding: 20px;
     text-align: center;
 }
 
-.servicios-h2{
+.servicios-h2 {
     text-align: center;
 }
 
-.promos-tittle{
+.promos-tittle {
     background-color: whitesmoke;
     padding: 10px;
     margin: 10px 0;
@@ -157,7 +171,7 @@ p{
 
 /* ------------CONTACTO--------------- */
 
-.contact-section{
+.contact-section {
     padding: 50px;
     margin: 50px;
     background-image: url(../recursos/ETIQUETA-COLGANTE-1.png);
@@ -167,7 +181,7 @@ p{
 
 /* ---------------GALERIA--------------------*/
 
-.galeria-flores{
+.galeria-flores {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -176,7 +190,7 @@ p{
 /* ----------------------FOOTER-------------------------- */
 
 
-.pie-p{
+.pie-p {
     background-color: rgb(5, 7, 9);
     margin-top: 20px;
     padding: 20px;
@@ -192,60 +206,223 @@ p{
 
 @media(max-width: 424px) {
 
-    .hero-container{
+    .hero-container {
         display: flex;
         justify-content: center;
         height: 110px;
 
     }
-        
 
-    .contenedor{
+
+    .contenedor {
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .categoria{
+    .categoria {
         width: 300px;
     }
 
-    .sn-tittle{
-        text-align: center;
-        padding: 15px;
-    }
-    
-  
+
+/* --------------SERVICIOS---------------------- */
+
+.hero-servicios {
+    min-width: 90vw;
+
 }
 
-@media(min-width: 425px){
+.hero-servicios img {
+    width: 90%;
+}
 
-    .hero-container{
+.servicios-1 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.arreglos-florales {
+    padding: 20px;
+    text-align: center;
+}
+
+.servicios-h2 {
+    text-align: center;
+}
+
+.promos-tittle {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.qs-img {
+    width: 280px;
+    height: 340px;
+}
+
+.mision-vision {
+    margin: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-sn {
+    width: 280px;
+}
+
+
+.ubi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+}
+
+.map-s {
+    width: 280px;
+}
+
+
+}
+
+@media(min-width: 425px) {
+
+    .hero-container {
         display: flex;
         justify-content: center;
-        height: 180px;
+        height: 110px;
     }
 
-    .contenedor{
+    .contenedor {
         display: flex;
         flex-direction: column;
     }
 
-    .categoria{
-        width: 400px;
+    .categoria {
+        width: 300px;
     }
+
+    /* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 20px;
 }
 
-@media(min-width: 768px){
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
 
-    .hero-container{
+}
+
+.mision-vision {
+    margin: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-sn {
+    width: 280px;
+}
+
+
+.ubi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+}
+
+.map-s {
+    width: 280px;
+}
+
+
+
+}
+
+@media(min-width: 768px) {
+
+    .hero-container {
         display: flex;
         justify-content: center;
         height: 280px;
 
     }
 
-    .contenedor{
+    .contenedor {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -253,45 +430,163 @@ p{
         justify-content: center;
     }
 
-    .categoria{
-            margin: 2px;
-            width: 350px;
+    .categoria {
+        margin: 2px;
+        width: 350px;
     }
+
+    .ubi-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 25px;
+    }
+
+    /* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
+    display: flex;
+    background-color: whitesmoke;
+    margin: 20px;
 }
 
-@media(min-width: 1024px){
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
 
-    .hero-container{
+}
+
+.mision-vision {
+    margin: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+}
+
+@media(min-width: 1024px) {
+
+    .hero-container {
         display: flex;
         justify-content: center;
         height: 350px;
     }
 
-    .contenedor{
+    .contenedor {
         display: flex;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
 
-    .categoria{
+
+    .categoria {
         margin: 2px;
         width: 500px;
 
     }
+
+    /* ------------------------SOBRE NOSOTROS----------------------------- */
+
+    .quienes-somos-container {
+        display: flex;
+        flex-direction: row;
+        background-color: whitesmoke;
+        margin: 20px;
+    }
+    
+    .quienes-somos {
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+    
+    }
+    
+    .mision-vision {
+        margin: 20px;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .mision {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .vision {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .videos-locales{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ubi-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 25px;
+    }
+    
+    .video-sn {
+        width: 600px;
+        height: 450px;
+    }
+
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1440px) {
 
-    .hero-container{
+    .hero-container {
         display: flex;
         justify-content: center;
         height: 450px;
     }
 
-    .contenedor{
+    .contenedor {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -299,9 +594,72 @@ p{
         justify-content: center;
     }
 
-    .categoria{
+    .categoria {
         margin: 2px;
         width: 700px;
     }
+ 
+    /* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    margin: 20px;
 }
 
+.quienes-somos {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.mision-vision {
+    margin: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.video-sn {
+    width: 600px;
+    height: 450px;
+}
+
+.map-s {
+    width: 600px;
+    height: 450px;
+}
+
+}
