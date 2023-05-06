@@ -1,0 +1,49 @@
+/* ------------------------SOBRE NOSOTROS----------------------------- */
+
+.quienes-somos-container {
+    display: flex;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.mision-vision {
+    margin: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.videos-locales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}

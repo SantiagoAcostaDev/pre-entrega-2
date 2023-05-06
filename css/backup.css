@@ -40,11 +40,116 @@ p {
   text-align: center;
   margin: 15px; }
 
+.nav-item :hover {
+  color: #7dadf0 !important; }
+
+.card {
+  display: flex;
+  align-items: center; }
+
+.row {
+  justify-content: center; }
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.categoria {
+  margin: 2px;
+  width: 500px; }
+
+.hero-container {
+  display: flex;
+  justify-content: center; }
+
+#cards {
+  margin: 15px; }
+
+/* ------------------------SOBRE NOSOTROS----------------------------- */
+.quienes-somos-container {
+  display: flex;
+  background-color: whitesmoke;
+  margin: 20px; }
+
+.quienes-somos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px; }
+
+.mision-vision {
+  margin: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly; }
+
+.mision {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px; }
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px; }
+
+.videos-locales {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.ubi-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px; }
+
+/* --------------SERVICIOS---------------------- */
+.hero-servicios {
+  min-width: 90vw; }
+
+.hero-servicios img {
+  width: 90%; }
+
+.servicios-1 {
+  display: flex;
+  padding: 20px;
+  flex-direction: row; }
+
+.arreglos-florales {
+  padding: 20px;
+  text-align: center; }
+
+.servicios-h2 {
+  text-align: center; }
+
+.promos-tittle {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px 0; }
+
+/* ------------CONTACTO--------------- */
+.contact-section {
+  padding: 50px;
+  margin: 50px;
+  background-image: url(../recursos/ETIQUETA-COLGANTE-1.png); }
+
 /* ---------------GALERIA--------------------*/
 .galeria-flores {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; }
+
+/* ----------------------FOOTER-------------------------- */
+.pie-p {
+  background-color: #050709;
+  margin-top: 20px;
+  padding: 20px; }
 
 /* ------------------- MEDIA QUERYS------------------------- */
 @media (max-width: 424px) {
@@ -341,108 +446,3 @@ p {
   .map-s {
     width: 600px;
     height: 450px; } }
-
-/* ------------------------SOBRE NOSOTROS----------------------------- */
-.quienes-somos-container {
-  display: flex;
-  background-color: whitesmoke;
-  margin: 20px; }
-
-.quienes-somos {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding: 20px; }
-
-.mision-vision {
-  margin: 20px;
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: space-evenly; }
-
-.mision {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 50px; }
-
-.vision {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 50px; }
-
-.videos-locales {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.ubi-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 25px; }
-
-/* --------------SERVICIOS---------------------- */
-.hero-servicios {
-  min-width: 90vw; }
-
-.hero-servicios img {
-  width: 90%; }
-
-.servicios-1 {
-  display: flex;
-  padding: 20px;
-  flex-direction: row; }
-
-.arreglos-florales {
-  padding: 20px;
-  text-align: center; }
-
-.servicios-h2 {
-  text-align: center; }
-
-.promos-tittle {
-  background-color: whitesmoke;
-  padding: 10px;
-  margin: 10px 0; }
-
-/* ------------CONTACTO--------------- */
-.contact-section {
-  padding: 50px;
-  margin: 50px;
-  background-image: url(../recursos/ETIQUETA-COLGANTE-1.png); }
-
-.card {
-  display: flex;
-  align-items: center; }
-
-.row {
-  justify-content: center; }
-
-.contenedor {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.categoria {
-  margin: 2px;
-  width: 500px; }
-
-.hero-container {
-  display: flex;
-  justify-content: center; }
-
-#cards {
-  margin: 15px; }
-
-/* ----------------------FOOTER-------------------------- */
-.pie-p {
-  background-color: #050709;
-  margin-top: 20px;
-  padding: 20px; }
-
-.nav-item :hover {
-  color: #7dadf0 !important; }
