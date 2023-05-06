@@ -9,11 +9,11 @@
 }
 
 .contenedor {
-    display: flex;
+    @include flex-center();
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    max-width: 1500px;
+    
 }
 
 .categoria {
